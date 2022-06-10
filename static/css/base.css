@@ -1,5 +1,6 @@
 :root{
     --primary-color:#ee4d2d;
+    /* --primary-color:#333; */
     --white-color:#fff;
     --black-color:#000;
     --text-color:#333;
@@ -79,8 +80,11 @@ html{
     right: 0;
     bottom: 0;
     left: 0;
-    display: none;
+    display: flex;
     animation: fadeIn linear 0.1s;
+}
+.hide-modal{
+    display: none;
 }
 
 .modal__overlay{
