@@ -1,0 +1,245 @@
+<!-- header -->
+
+<header class="header">
+    <div class="grid wide">
+        <nav class="header__navbar hide-on-moblie-tablet">
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                    Tải ứng dụng
+                    <!-- Header QR Code -->
+                    <div class="header__qr">
+                        <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                        <div class="header__qr-apps">
+                            <a href="" class="header__qr-link">
+                                <img src="./assets/img/google_play.png" alt="Google Play" class="header__qr-download-img">
+                            </a>
+                            <a href="" class="header__qr-link">
+                                <img src="./assets/img/app_store.png" alt="App Store" class="header__qr-download-img">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="header__navbar-item">
+                    <span class="header__navbar--no-pointer">Kết nối</span>
+                    <a href="" class="header__navbar-icon-link">
+                        <i class=" header__navbar-icon auth-form__socials-icon fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="" class="header__navbar-icon-link">
+                        <i class=" header__navbar-icon fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item header__navbar-item--has--notify">
+                    <a href="" class="header__navbar-item-link">
+                        <i class=" header__navbar-icon far fa-bell"></i>
+                        Thông báo
+                    </a>
+                    <div class="header__notify">
+                        <header class="header__notify-header">
+                            <h3>Thông báo mới nhận</h3>
+                        </header>
+                        <ul class="header__notify-list">
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a class="header__notify-link" href="">
+                                    <img src="./assets/img/laptop.jpg" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">Laptop Asus giảm giá 99% mua nhanh mua nhanh mua nhanh mua nhanh</span>
+                                        <span class="header__notify-desc">Mô tả thông báo abc xyz </span>
+                                        
+                                    </div>
+                                </a>
+                            </li><li class="header__notify-item header__notify-item--viewed">
+                                <a class="header__notify-link" href="">
+                                    <img src="./assets/img/laptop.jpg" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">Laptop Asus giảm giá 99%</span>
+                                        <span class="header__notify-desc">Mô tả thông báo abc xyz</span>
+                                        
+                                    </div>
+                                </a>
+                            </li><li class="header__notify-item">
+                                <a class="header__notify-link" href="">
+                                    <img src="./assets/img/laptop.jpg" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">Laptop Asus giảm giá 99%</span>
+                                        <span class="header__notify-desc">Mô tả thông báo abc xyz</span>
+                                        
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <footer class="header__notify-footer">
+                            <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                        </footer>
+                    </div>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">
+                        <i class=" header__navbar-icon fa-regular fa-circle-question"></i>
+                        Trợ giúp
+                    </a>
+
+                </li>
+                {% comment %} <li class="js-register-btn header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                <li class="js-login-btn header__navbar-item header__navbar-item--strong">Đăng nhập</li> {% endcomment %}
+                 <li class="header__navbar-item header__navbar-user">
+                    <img src="./assets/img/male.png" alt="" class="header__navbar-user-img">
+                    <span class="header__navbar-user-name">Lo Du</span>
+
+                    <ul class="header__navbar-user-menu">
+                        <li class="header__navbar-user-item">
+                            <a href="">Tài Khoản của tôi</a>
+                        </li>
+                        <li class="header__navbar-user-item">
+                            <a href="">Đơn mua</a>
+                        </li>
+                        <li class="header__navbar-user-item header__navbar-user-item--separate">
+                            <a href="">Đăng xuất</a>
+                        </li>
+                    </ul>
+                </li>   
+            </ul>
+        </nav>
+        <!-- Header with search -->
+        <div class="header-with-search">
+            <label for="mobile-search-checkbox" class="header__mobile-search">
+                <i class="header__mobile-search-icon fa-solid fa-magnifying-glass"></i>
+            </label>
+            <div class="header__logo ">
+                <a href="" class="header__logo-link">
+                    <h1 viewBox="0 0 192 65" class="header__logo-img">
+                        LODUstore
+                    </h1>
+
+                </a>
+            </div>
+            <input type="checkbox" name="" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
+            <div class="header__search ">
+                <div class="header__search-input-wrap">
+                    <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                    <!-- Search history -->
+                    <div class="header__search-history">
+                        <h3 class="header__search-history-heading">
+                            Lịch sử tìm kiếm
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">Laptop asus</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Điện thoại IphoneX</a>
+                                </li>
+                            </ul>
+                        </h3>
+                    </div>
+                </div>
+                <div class="header__search-select">
+                    <span class="header__search-select-label">Trong shop</span>
+                    <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+                    <ul class="header__search-option">
+                        <li class="header__search-option-item header__search-option-item--active">
+                            <span>Trong shop</span>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li class="header__search-option-item">
+                            <span>Ngoài shop</span>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                    </ul>
+                </div>
+                <button class="header__search-btn">
+                    <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <!-- Cart layout -->
+            <div class="header__cart">
+                <div class="header__cart-wrap">
+                    <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                    <span class="header__cart-notice">3</span>
+                    <!-- No cart: header__cart--no-cart -->
+                    <div class="header__cart-list ">
+                        <img src="./assets/img/no-cart.png" alt="" class="header__cart--no-cart-img">
+                        <span class="header__cart-list-no-cart-msg">
+                            Chưa có sản phẩm
+                        </span>
+
+                        <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                        <ul class="header__cart-list-item">
+                            <!-- Cart item -->
+                            <li class="header__cart-item">
+                                <img src="./assets/img/laptop.jpg" alt="" class="header__cart-img">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">Laptop Asusj bsdfSỊ DGsd gLWDG WED VN JDFHAB SIUDGFIUSDF SDF UIASGDUIF SHDUFISHDFD FDFOSHDFAUSDYFUS8DHF </h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">2.000.000đ</span>
+                                            <span class="header__cart-item-multiply">x</span>    
+                                            <span class="header__cart-item-qnt">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__cart-item-body">
+                                        <span class="header__cart-item-desc">Phân loại: Đen</span>
+                                        <span class="header__cart-item-remove">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__cart-item">
+                                <img src="./assets/img/laptop.jpg" alt="" class="header__cart-img">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">Laptop Asus</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">2.000.000đ</span>
+                                            <span class="header__cart-item-multiply">x</span>    
+                                            <span class="header__cart-item-qnt">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__cart-item-body">
+                                        <span class="header__cart-item-desc">Phân loại: Đen</span>
+                                        <span class="header__cart-item-remove">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__cart-item">
+                                <img src="./assets/img/laptop.jpg" alt="" class="header__cart-img">
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">Laptop Asus</h5>
+                                        <div class="header__cart-item-price-wrap">
+                                            <span class="header__cart-item-price">2.000.000đ</span>
+                                            <span class="header__cart-item-multiply">x</span>    
+                                            <span class="header__cart-item-qnt">2</span>
+                                        </div>
+                                    </div>
+                                    <div class="header__cart-item-body">
+                                        <span class="header__cart-item-desc">Phân loại: Đen</span>
+                                        <span class="header__cart-item-remove">Xóa</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a href="" class="header__cart-view btn btn--primary">Xem giỏ hàng</a>
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <ul class="header__sort-bar">
+        <li class="header__sort-item">
+            <a href="" class="header__sort-link">Liên quan</a>
+        </li>
+        <li class="header__sort-item header__sort-item--active">
+            <a href="" class="header__sort-link">Mới nhất</a>
+        </li>
+        <li class="header__sort-item">
+            <a href="" class="header__sort-link">Bán chạy</a>
+        </li>
+        <li class="header__sort-item">
+            <a href="" class="header__sort-link">Giá</a>
+        </li>
+    </ul>
+</header>
